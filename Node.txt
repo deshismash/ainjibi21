@@ -1,0 +1,5 @@
+1. Remove Mobile APk
+2. Modifai Profile (4 col and chnage design)
+3. Remove video 
+4. add video in hero section
+5. 
