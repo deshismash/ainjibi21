@@ -618,6 +618,28 @@ body {
 .footer-cont ul li {
   margin: 11px 0px;
 }
+.foter-contact ul li {
+  margin: 23px 0px;
+}
+.foter-contact ul li a i {
+  margin: 0px 8px;
+}
+.copyright-branding ul li {
+  display: initial;
+  margin: 0px 15px;
+}
+.copyright-branding ul li a {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer-copyright {
+  border-top: 1px solid #515050;
+  padding-top: 30px;
+}
+.copyright-branding ul li a:hover {
+  color: #28a745;
+  transition: 0.3s;
+}
 /* category area css  */
 
 .category-area {
