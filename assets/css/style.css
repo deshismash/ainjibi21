@@ -262,7 +262,8 @@ body {
   border: 1px solid;
   padding: 5px 25px;
   border-radius: 15px;
-  margin-top: 0px;
+  margin-top: 25px;
+  /* padding-top: 20px; */
 }
 .lawyers-button button {
   background: none;
