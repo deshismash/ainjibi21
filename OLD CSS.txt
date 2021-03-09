@@ -1,0 +1,113 @@
+.lawyers-profile-area {
+  padding-bottom: 100px;
+}
+.lawyers-title {
+  color: #344763;
+  margin: 20px 0px;
+}
+.lawyers-title span {
+  color: #55bc7e;
+}
+.lawyers-title-content {
+  margin: 30px 0px;
+  color: #344763;
+}
+.section-gap {
+  /* margin: 190px 0px; */
+}
+
+.lawyers-box {
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid #e5e5e5;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.lawyers-box:hover {
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+  border-radius: 10px;
+  background: #344763;
+  transition: 0.5s;
+  color: #fff !important;
+  cursor: pointer;
+}
+.lawyers-box.active {
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+  border: 1px solid #e5e5e5;
+  padding: 20px;
+  border-radius: 10px;
+  background: #344763;
+  transition: 0.5s;
+  color: #fff !important;
+  cursor: pointer;
+}
+.lawyers-name span.active {
+  color: #55bc7e;
+  /* transition: .5s; */
+}
+
+.lawyers-profile {
+  display: inline-flex;
+}
+.lawyers-profile img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.lawyers-name {
+  font-weight: bold;
+  margin: 20px;
+  font-size: 20px;
+  margin-top: 8px;
+  /* color: #241953; */
+}
+.lawyers-name span {
+  margin-left: 137px;
+  color: #55bc7e;
+  margin-top: -36px;
+  display: block;
+}
+.lawyers-exprience {
+  color: #d4d4d4;
+  margin: 20px 0px;
+}
+.lawyers-exprience span {
+  float: right;
+  color: #ff9066;
+  background: #ffeee6;
+  padding: 7px;
+  font-size: 12px;
+  border-radius: 10px;
+  margin-top: -4px;
+  margin-right: 16px;
+}
+.far.fa-bookmark {
+  background: #ededed;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.lawyers-contnet {
+  color: #d4d4d4;
+  margin: 15px 0px;
+}
+.hire-lawyers.btn.btn-success {
+  border: 0;
+  background: none;
+  color: #55bc7e;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+.lawyers-name span:hover {
+  color: #55bc7e;
+  transition: 0.5s;
+}

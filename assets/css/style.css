@@ -191,7 +191,6 @@ body {
 }
 
 /* lawyears Profile area  */
-
 .lawyers-profile-area {
   padding-bottom: 100px;
 }
@@ -206,106 +205,61 @@ body {
   margin: 30px 0px;
   color: #344763;
 }
-.section-gap {
-  /* margin: 190px 0px; */
-}
 
 .lawyers-box {
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
-  border: 1px solid #e5e5e5;
-  background: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 30px;
+  text-align: center;
+  /* background-image: url(../img/fnadminbg.jpg); */
+  background-color: #000;
+  border-radius: 15px;
+  box-shadow: 5px 3px 22px 0px;
 }
-.lawyers-box:hover {
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
-  border: 1px solid #e5e5e5;
-  padding: 20px;
-  border-radius: 10px;
-  background: #344763;
-  transition: 0.5s;
-  color: #fff !important;
-  cursor: pointer;
-}
-.lawyers-box.active {
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
-  border: 1px solid #e5e5e5;
-  padding: 20px;
-  border-radius: 10px;
-  background: #344763;
-  transition: 0.5s;
-  color: #fff !important;
-  cursor: pointer;
-}
-.lawyers-name span.active {
-  color: #55bc7e;
-  /* transition: .5s; */
-}
-
-.lawyers-profile {
-  display: inline-flex;
-}
-.lawyers-profile img {
-  height: 60px;
-  width: 60px;
+.lawyers-img {
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
 }
-
-.lawyers-name {
-  font-weight: bold;
+.lawyers-flowers ul li {
+  display: ;
+  display: inline-block;
   margin: 20px;
+  border: 1px solid red;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.lawyers-floweing ul li {
+  display: inline flow-root list-item;
   font-size: 20px;
-  margin-top: 8px;
-  /* color: #241953; */
+  font-weight: bold;
+  margin: 0px 30px;
+  color: #fff;
 }
-.lawyers-name span {
-  margin-left: 137px;
-  color: #55bc7e;
-  margin-top: -36px;
-  display: block;
+.lawyers-name {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  color: #fff;
 }
-.lawyers-exprience {
-  color: #d4d4d4;
-  margin: 20px 0px;
+.lawyers-cata {
+  background: #f3f3f3;
+  margin: 31px 99px;
+  padding: 8px;
+  color: #008dff;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
-.lawyers-exprience span {
-  float: right;
-  color: #ff9066;
-  background: #ffeee6;
-  padding: 7px;
-  font-size: 12px;
-  border-radius: 10px;
-  margin-top: -4px;
-  margin-right: 16px;
+.lawyers-button {
+  background: #f3f3f3;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 0px 0px 15px 15px;
 }
-.far.fa-bookmark {
-  background: #ededed;
-  width: 45px;
-  height: 45px;
-  text-align: center;
-  line-height: 45px;
-  border-radius: 6px;
+.lawyers-button button {
+  background: none;
+  color: #7d8793;
+  border: 0;
+  font-weight: bold;
   cursor: pointer;
 }
-.lawyers-contnet {
-  color: #d4d4d4;
-  margin: 15px 0px;
-}
-.hire-lawyers.btn.btn-success {
-  border: 0;
-  background: none;
-  color: #55bc7e;
-  text-transform: capitalize;
-  font-weight: bold;
-  text-decoration: underline;
-  margin-bottom: 10px;
-}
-.lawyers-name span:hover {
-  color: #55bc7e;
-  transition: 0.5s;
-}
-
 /* talented lawyers area css */
 
 .talented-lawyears-area {
