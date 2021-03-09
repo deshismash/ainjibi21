@@ -210,16 +210,17 @@ body {
   text-align: center;
   background-image: url(../img/bg2.jpg);
   /* background-color: #000; */
-  border-radius: 15px;
+  border-radius: 7px;
   box-shadow: 1px 1px 3px 0px;
-  /* background-size: cover; */
-  /* background-position: center; */
-  padding-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 30px;
 }
 .lawyers-img {
   height: 80px;
   width: 80px;
   border-radius: 50%;
+  margin-top: -15px;
 }
 
 .lawyers-floweing {
@@ -253,7 +254,16 @@ body {
   display: inline;
   cursor: pointer;
 }
-
+.law-cat {
+  cursor: pointer;
+  background: none;
+  color: #ffff;
+  text-transform: capitalize;
+  border: 1px solid;
+  padding: 5px 25px;
+  border-radius: 15px;
+  margin-top: 0px;
+}
 .lawyers-button button {
   background: none;
   border: 1px solid aliceblue;
@@ -265,8 +275,7 @@ body {
   margin: 0px 72px;
 }
 .lawyers-floweing h5 {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
 }
 .lawyers-floweing h5 span {
   /* font-weight: bold; */
@@ -292,6 +301,7 @@ body {
   padding-top: 25px;
   padding-bottom: 20px;
   color: #3c4b62;
+  font-size: 19px;
 }
 .lawyers-cata {
   background: #f3f3f3;
