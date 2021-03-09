@@ -208,15 +208,68 @@ body {
 
 .lawyers-box {
   text-align: center;
-  /* background-image: url(../img/fnadminbg.jpg); */
-  background-color: #000;
+  background-image: url(../img/bg2.jpg);
+  /* background-color: #000; */
   border-radius: 15px;
   box-shadow: 5px 3px 22px 0px;
+  /* background-size: cover; */
+  /* background-position: center; */
+  padding-bottom: 20px;
 }
 .lawyers-img {
   height: 80px;
   width: 80px;
   border-radius: 50%;
+}
+
+.lawyers-floweing {
+  margin: 30px 35px;
+  color: #fff;
+}
+.div-br::after {
+  content: "";
+  background: #fff;
+  height: 27px;
+  width: 1px;
+  position: absolute;
+  top: 78%;
+  left: 48%;
+  right: 12px;
+  z-index: 999;
+  /* border-right: 1px solid red; */
+}
+.button-law {
+  border: 1px solid;
+  width: 170px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 16px;
+  margin-top: 33px !important;
+  color: #fff;
+  margin-bottom: 22px;
+}
+.button-law i {
+  padding-bottom: 25px;
+  display: inline;
+  cursor: pointer;
+}
+
+.lawyers-button button {
+  background: none;
+  border: 1px solid aliceblue;
+  padding: 15px 27px;
+  margin-bottom: 21px;
+  border-radius: 24px;
+}
+.lawyers-button {
+  margin: 0px 72px;
+}
+.lawyers-floweing h5 {
+  font-size: 18px;
+}
+.lawyers-floweing h5 span {
+  font-weight: bold;
+  font-size: 20px !important;
 }
 .lawyers-flowers ul li {
   display: ;
@@ -236,7 +289,7 @@ body {
 .lawyers-name {
   padding-top: 25px;
   padding-bottom: 20px;
-  color: #fff;
+  color: #3c4b62;
 }
 .lawyers-cata {
   background: #f3f3f3;
@@ -247,7 +300,7 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-.lawyers-button {
+/* .lawyers-button {
   background: #f3f3f3;
   padding: 15px;
   margin-top: 30px;
@@ -259,7 +312,7 @@ body {
   border: 0;
   font-weight: bold;
   cursor: pointer;
-}
+} */
 /* talented lawyers area css */
 
 .talented-lawyears-area {
