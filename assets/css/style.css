@@ -1192,4 +1192,27 @@ body {
 .custom-select:focus {
   box-shadow: none !important;
 }
+
+.home2-section-center {
+  text-align: center;
+  margin-top: 201px;
+}
+.home2-section-tag {
+  padding-top: 40px;
+  text-align: center;
+}
+.home2-section-tag ul li {
+  display: inline;
+  margin: 10px;
+  text-align: center;
+}
+.home2-section-tag ul li a {
+  color: #666565;
+  padding: 10px;
+  border: 1px solid #d0d0d0;
+  border-radius: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
 /*All Page CSS Here END */
