@@ -211,7 +211,7 @@ body {
   background-image: url(../img/bg2.jpg);
   /* background-color: #000; */
   border-radius: 15px;
-  box-shadow: 5px 3px 22px 0px;
+  box-shadow: 1px 1px 3px 0px;
   /* background-size: cover; */
   /* background-position: center; */
   padding-bottom: 20px;
@@ -269,8 +269,9 @@ body {
   font-weight: bold;
 }
 .lawyers-floweing h5 span {
-  /*! font-weight: bold; */
+  /* font-weight: bold; */
   font-size: 15px !important;
+  display: block;
 }
 .lawyers-flowers ul li {
   display: ;
