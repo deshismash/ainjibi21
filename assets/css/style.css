@@ -29,7 +29,6 @@
   display: none;
 }
 /* All Display None CSS END */
-
 .container {
   max-width: 1440px !important;
 }
@@ -197,6 +196,7 @@ body {
 .lawyers-title {
   color: #344763;
   margin: 20px 0px;
+  margin-bottom: 60px;
 }
 .lawyers-title span {
   color: #55bc7e;
@@ -210,6 +210,36 @@ body {
   text-align: center;
   background-image: url(../img/bg2.jpg);
   /* background-color: #000; */
+  border-radius: 7px;
+  box-shadow: 1px 1px 3px 0px;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 5px;
+}
+.bg2 {
+  text-align: center;
+  background-image: url(../img/fnadminbg.jpg);
+  /* background-color: #000 !important; */
+  border-radius: 7px;
+  box-shadow: 1px 1px 3px 0px;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 5px;
+}
+.bg3 {
+  text-align: center;
+  background-image: url(../img/bg4.png);
+  /* background-color: #000 !important; */
+  border-radius: 7px;
+  box-shadow: 1px 1px 3px 0px;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 5px;
+}
+.bg4 {
+  text-align: center;
+  background-image: url(../img/bg5.png);
+  /* background-color: #000 !important; */
   border-radius: 7px;
   box-shadow: 1px 1px 3px 0px;
   background-size: cover;
