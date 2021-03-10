@@ -1081,10 +1081,11 @@ body {
 .home2-hero-area {
   background-color: #f8f9fd;
   height: 100vh;
+  /* padding-bottom: 50px; */
 }
 .img1 {
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   background: #f8f9fd;
   padding: 15px;
   border-radius: 50%;
