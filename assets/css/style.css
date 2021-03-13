@@ -1216,4 +1216,43 @@ body {
   text-transform: capitalize;
 }
 
+
+/* twitter Dash Bord CSS  */
+.dashbord-main {
+	padding: 50px 0px;
+}
+.frnt-dashbord-menu ul li {
+	display: block ruby;
+	margin-bottom: 20px;
+}
+.frnt-dashbord-menu ul li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+  padding: 20px;
+}
+.frnt-dashbord-menu ul li a img {
+	max-width: 100%;
+	height: 1.75rem;
+	margin-top: -9px;
+}
+.frnt-dashbord-menu ul li a span {
+	margin-left: 12px;
+	font-size: 19px;
+}
+.frnt-dashbord-menu ul li a:hover {
+	background: #E8F5FE;
+	padding: 20px;
+	border-radius: 30px;
+	color: #1DA1F2;
+  transition: .3s;
+}
+
+
+
+
+
+
+
+
 /*All Page CSS Here END */
