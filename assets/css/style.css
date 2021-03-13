@@ -1052,7 +1052,7 @@ body {
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
   border: 1px solid #e5e5e5;
   /* height: 50vh; */
-  margin-top: 30px;
+  /* margin-top: 30px; */
   padding: 50px;
 }
 .menu-title i {
@@ -1248,6 +1248,16 @@ body {
   transition: .3s;
 }
 
+
+/* ads area  */
+
+.front-dashbord-add {
+	margin-bottom: 55px;
+	padding: 10px 0;
+	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+	border: 1px solid #e5e5e5;
+	height: 35vh;
+}
 
 
 
