@@ -50,7 +50,7 @@ p {
   margin: 0;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 /* Universilal CSS  */
 
@@ -1218,6 +1218,8 @@ body {
 
 
 /* twitter Dash Bord CSS  */
+
+
 .dashbord-main {
 	padding: 50px 0px;
 }
@@ -1248,6 +1250,38 @@ body {
   transition: .3s;
 }
 
+/* content area  */
+.twit-front-dashbord-content {
+	margin-bottom: 25px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
+	/* border: 1px solid #e5e5e5; */
+	/* height: 50vh; */
+	/* margin-top: 30px; */
+	padding: 50px;
+}
+.twi-profile-img img {
+	height: 3.75rem;
+	border-radius: 50%;
+	max-width: 3.75rem;
+}
+.twit-front-dashbord-content h5 {
+	margin-top: -50px;
+	margin-left: 75px;
+	color: #000;
+	font-weight: bold;
+	font-size: 14px;
+}
+.twit-front-dashbord-content h5 span {
+	font-weight: normal;
+	margin-top: 2px;
+	display: block;
+}
+.twit-front-main-text {
+	margin-top: 13px;
+	margin-bottom: 10px;
+	margin-left: 75px;
+}
+
 
 /* ads area  */
 
@@ -1255,10 +1289,12 @@ body {
 	margin-bottom: 55px;
 	padding: 10px 0;
 	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
-	border: 1px solid #e5e5e5;
+	/* border: 1px solid #e5e5e5; */
 	height: 35vh;
 }
-
+.content-img{
+  margin-left: 75px;
+}
 
 
 
