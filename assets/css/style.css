@@ -57,9 +57,27 @@ body {
 /* Universilal CSS  END */
 
 /* Menu CSS  */
+.header-search input {
+	width: 100% !important;
+	margin: 0 auto;
+	padding: 12px;
+}
 .main-menu-area {
-	/* padding: 15px 0px; */
-	background-color: #fbfbfb;
+	padding: 15px 0px;
+	background-color: #f0f0f0;
+}
+.nav-bar ul li {
+	display: inline;
+	margin: 0px 10px;
+	padding-top: 10px;
+}
+.nav-bar ul li a svg {
+	height: 1.75rem;
+	color: red;
+}
+.nav-bar ul li a i {
+	color: #000;
+	font-size: 25px;
 }
 .nav-link {
   color: #000 !important;
@@ -976,7 +994,7 @@ body {
 }
 .main-menu-area input {
   margin-right: 100px !important;
-  width: 70% !important;
+  /* width: 70% !important; */
 }
 
 /* Flower */
