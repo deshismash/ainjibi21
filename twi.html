@@ -86,7 +86,7 @@
             <section class="dashbord-main">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-2">
+                        <div class="col-xl-3">
                             <div class="frnt-dashbord-menu">
                                 <ul>
                                     <li><a href="#"><img src="assets/img/svg/home-svgrepo-com.svg" alt=""> <span>Home</span></a></li>
@@ -147,32 +147,60 @@
 						   </div>
 
 						   <!-- dashbord content view  -->
-						   <div class="twit-front-dashbord-content mt-5">
-							<div class="twi-profile-img">
-								<img src="assets/img/admin.jpg" alt="">
-							</div>
-							<h5>NYT Health <br>
-								<span>@username</span>
-							</h5>
+						   <div class="front-tab-area">
 
-							<p class="twit-front-main-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the </p>
-							<img src="assets/img/content.png" class="img-fluid content-img" alt="">
-						</div>
-						<div class="admin-main-content">
-							<h4 class="admin-content-title">Message <span> @username </span></h4>
-							<p class="admin-content-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The pointIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </p> <br>
-							<p class="admin-content-text">Ipsum is that it has a more-or-less normal distrib, as opposed to using 'Content here, content here', making it look like as opposed to using 'Content here, content here', making it look like  </p>
-							<p class="admin-content-text">Ipsum is that it has a more-or-less normal distribution of letters, as opposed  as opposed to using 'Content here, content here', making it look like  </p>
-						</div>
+
+							<!-- Tab links -->
+							   <div class="tab">
+								   <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'London')">Home</button>
+								   <button class="tablinks" onclick="openCity(event, 'Paris')">About</button>
+								   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Profile</button>
+								   <button class="tablinks" onclick="openCity(event, 'Tokyo2')">More</button>
+							   </div>
+							   
+							   <!-- Tab content -->
+							   <div id="London" class="tabcontent">
+								   <div class="admin-main-content">
+									   
+									   <p class="admin-content-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The pointIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </p> <br>
+									   <p class="admin-content-text">Ipsum is that it has a more-or-less normal distrib, as opposed to using 'Content here, content here', making it look like as opposed to using 'Content here, content here', making it look like  </p>
+									   <p class="admin-content-text">Ipsum is that it has a more-or-less normal distribution of letters, as opposed  as opposed to using 'Content here, content here', making it look like  </p>
+								   </div>
+							   </div>
+							   
+							   <div id="Paris" class="tabcontent">
+								   <h3>Paris</h3>
+								   <p>Paris is the capital of France.</p>
+							   </div>
+							   
+							   <div id="Tokyo" class="tabcontent">
+								   <h3>Tokyo</h3>
+								   <p>Tokyo is the capital of Japan.</p>
+							   </div> 
+
+							   <div id="Tokyo2" class="tabcontent">
+								   <h3>2</h3>
+								   <p>Tokyo is the capital of Japan.</p>
+							   </div> 
+
+					   </div>
+						
 						
 
                         </div>
-                        <div class="col-xl-3">
+                        <div class="col-xl-2">
                             <div class="front-dashbord-add">
-								<h3 class="text-center mt-5">Ads area</h3>
+								<!-- <h3 class="text-center mt-5">Ads area</h3> -->
+								<img src="assets/img2/ads1.jpg" class="img-fluid" alt="">
 							</div>
-                            <div class="front-dashbord-add"></div>
-                            <div class="front-dashbord-add"></div>
+                            <div class="front-dashbord-add">
+								<!-- <h3 class="text-center mt-5">Ads area</h3> -->
+								<img src="assets/img2/ads2.png" class="img-fluid" alt="">
+							</div>
+                            <div class="front-dashbord-add">
+								<!-- <h3 class="text-center mt-5">Ads area</h3> -->
+								<img src="assets/img2/ads3.png" class="img-fluid" alt="">
+							</div>
                         </div>
                     </div>
                 </div>

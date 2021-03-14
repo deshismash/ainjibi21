@@ -1222,7 +1222,7 @@ body {
 
 
 .dashbord-main {
-	padding: 50px 0px;
+	padding: 30px 0px;
 	background: #18191A;
 	color: #fff;
 }
@@ -1256,8 +1256,9 @@ body {
 .frnt-dashbord-menu {
 	background: #242526;
 	color: #fff !important;
+	height: 100vh;
+	border-radius: 10px;
 }
-
 
 
 
@@ -1268,15 +1269,16 @@ body {
 
 .header {
 	background: url('../img/dashbord/dashbord-header.jpg');
-	height: 30vh;
+	height: 40vh;
 	background-size: cover;
 	background-position: center;
+  border-radius: 10px 10px 0px 0px;
 }
 .dashbord-profile.img-fluid {
 	border-radius: 50%;
 	height: 140px;
 	width: 140px;
-	margin-top: -65px;
+	margin-top: -80px;
 	padding: 5px;
 	background: #fff;
 	margin-left: 10px;
@@ -1317,8 +1319,9 @@ body {
 	margin-left: 20px;
 }
 .profile-header-content h5 {
-  font-weight: bold;
-  /* color: #0F1419; */
+	font-weight: bold;
+	/* color: #0F1419; */
+	margin-top: 12px;
 }
 .profile-header-content h6 {
   color: rgb(91, 112, 131);
@@ -1393,10 +1396,15 @@ body {
 
 .front-dashbord-add {
 	margin-bottom: 55px;
-	padding: 10px 0;
-	/* box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15); */
-	border: 1px solid #e5e5e5;
-	height: 35vh;
+	/* padding: 10px 0; */
+	/* box-shadow: 0 0 6px 0 rgba(238, 238, 238, 0.15); */
+	/* border: 1px solid #2d2d2d; */
+	/* height: 35vh; */
+	border-radius: 10px;
+  /* background-image: url(../img2/ads1.png); */
+}
+.front-dashbord-add img {
+	border-radius: 10px;
 }
 .content-img{
   margin-left: 75px;
