@@ -99,14 +99,15 @@ body {
 }
 
 .hero-area h1 {
-  font-size: 46px;
-  font-weight: 500;
-  line-height: 1.28;
-  color: #242c42;
-  margin-bottom: 25px;
-  text-overflow: ellipsis;
-  overflow: visible;
-  white-space: nowrap;
+	font-size: 46px;
+	font-weight: 500;
+	line-height: 1.28;
+	color: #242c42;
+	margin-bottom: 25px;
+	text-overflow: ellipsis;
+	overflow: visible;
+	white-space: nowrap;
+	text-align: left !important;
 }
 
 .hero-area .feature-text {
