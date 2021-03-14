@@ -1049,11 +1049,12 @@ body {
 }
 
 .admin-main-content {
-	/* box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15); */
-	border: 1px solid #e5e5e5;
+	box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.15);
+	/* border: 1px solid #262424; */
 	/* height: 50vh; */
 	/* margin-top: 30px; */
 	padding: 50px;
+	color: #fff !important;
 }
 .menu-title i {
   font-size: 20px;
@@ -1222,16 +1223,19 @@ body {
 
 .dashbord-main {
 	padding: 50px 0px;
+	background: #18191A;
+	color: #fff;
 }
 .frnt-dashbord-menu ul li {
 	display: block ruby;
-	margin-bottom: 20px;
+	/* margin-bottom: 35px; */
+  padding: 20px;
 }
 .frnt-dashbord-menu ul li a {
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 	font-weight: bold;
-  padding: 20px;
+  /* padding: 20px; */
 }
 .frnt-dashbord-menu ul li a img {
 	max-width: 100%;
@@ -1242,14 +1246,17 @@ body {
 	margin-left: 12px;
 	font-size: 19px;
 }
-.frnt-dashbord-menu ul li a:hover {
-	background: #E8F5FE;
+.frnt-dashbord-menu ul li:hover {
+	background: #252F3C;
 	padding: 20px;
-	border-radius: 30px;
+	border-radius: 3px;
 	color: #1DA1F2;
   transition: .3s;
 }
-
+.frnt-dashbord-menu {
+	background: #242526;
+	color: #fff !important;
+}
 
 
 
@@ -1276,7 +1283,7 @@ body {
 }
 
 .twit-front-dashbord-main {
-	border: 1px solid #e5e5e5;
+	/* border: 1px solid #e5e5e5; */
   padding-bottom: 30px;
 }
 .edit-button {
@@ -1311,7 +1318,7 @@ body {
 }
 .profile-header-content h5 {
   font-weight: bold;
-  color: #0F1419;
+  /* color: #0F1419; */
 }
 .profile-header-content h6 {
   color: rgb(91, 112, 131);
@@ -1338,7 +1345,7 @@ body {
   color: rgb(91, 112, 131);
 }
 .proflie-review ul li a span {
-	color: #000;
+	color: #fff;
   font-weight: 600;
 }
 /* ========== */
@@ -1396,8 +1403,48 @@ body {
 }
 
 
+/* Tab css  */
+ /* Style the tab */
+ .tab {
+	overflow: hidden;
+	border-top: 1px solid #3A3B3C;
+	background-color: #18191a;
+	color: #fff !important;
+	margin-left: 10px;
+	padding: 15px 0px;
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	color: #fff;
+}
 
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: #4294FF;
+}
 
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #3A3B3C;
+  color:#4294FF;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  /* border: 1px solid #ccc; */
+  border-top: none;
+} 
 
 
 /*All Page CSS Here END */
+
+
