@@ -1270,13 +1270,14 @@ body {
 	height: 140px;
 	width: 140px;
 	margin-top: -65px;
-	padding: 10px;
+	padding: 5px;
 	background: #fff;
 	margin-left: 10px;
 }
 
 .twit-front-dashbord-main {
 	border: 1px solid #e5e5e5;
+  padding-bottom: 30px;
 }
 .edit-button {
 	font-size: 15px;
@@ -1297,8 +1298,49 @@ body {
   background-color: #E8F5FE;
   transition: .3s;
 }
+/* profile-address  */
 
+.profile-address ul li a img {
+	height: 1.5rem;
+}
+.proflie-review ul li a img {
+	height: 1.5rem;
+}
+.profile-header-content {
+	margin-left: 20px;
+}
+.profile-header-content h5 {
+  font-weight: bold;
+  color: #0F1419;
+}
+.profile-header-content h6 {
+  color: rgb(91, 112, 131);
+  text-transform: lowercase;
+}
+.profile-bio {
+	margin: 10px 0px;
+	line-height: 19px;
+}
 
+.profile-address ul li {
+	display: inline;
+}
+.profile-address ul li a {
+	color: rgb(91, 112, 131);
+	text-decoration: none;
+}
+.proflie-review ul li {
+	display: inline;
+  
+}
+.proflie-review ul li a {
+	text-decoration: none;
+  color: rgb(91, 112, 131);
+}
+.proflie-review ul li a span {
+	color: #000;
+  font-weight: 600;
+}
 /* ========== */
 
 
