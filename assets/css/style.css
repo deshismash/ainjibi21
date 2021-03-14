@@ -1223,19 +1223,22 @@ body {
 
 .dashbord-main {
 	padding: 30px 0px;
-	background: #18191A;
+	background: #eee;
 	color: #fff;
 }
 .frnt-dashbord-menu ul li {
 	display: block ruby;
 	/* margin-bottom: 35px; */
-  padding: 20px;
+	padding: 20px;
+	border: 1px solid #eee;
+	border-bottom: 0;
+  cursor: pointer;
 }
 .frnt-dashbord-menu ul li a {
 	text-decoration: none;
-	color: #fff;
+	color: #000;
 	font-weight: bold;
-  /* padding: 20px; */
+	/* padding: 20px; */
 }
 .frnt-dashbord-menu ul li a img {
 	max-width: 100%;
@@ -1247,17 +1250,18 @@ body {
 	font-size: 19px;
 }
 .frnt-dashbord-menu ul li:hover {
-	background: #252F3C;
+	background: #ededed;
 	padding: 20px;
-	border-radius: 3px;
+	/* border-radius: 10px; */
 	color: #1DA1F2;
   transition: .3s;
 }
 .frnt-dashbord-menu {
-	background: #242526;
-	color: #fff !important;
+	background: #fff;
+	/* color: #fff !important; */
 	height: 100vh;
 	border-radius: 10px;
+	box-shadow: #18191A 2px 2px 13px -9px;
 }
 
 
@@ -1286,7 +1290,12 @@ body {
 
 .twit-front-dashbord-main {
 	/* border: 1px solid #e5e5e5; */
-  padding-bottom: 30px;
+	padding-bottom: 30px;
+	background: #fbfbfb;
+	color: #000 !important;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	box-shadow: #18191A 2px 2px 13px -9px;
 }
 .edit-button {
 	font-size: 15px;
@@ -1348,8 +1357,8 @@ body {
   color: rgb(91, 112, 131);
 }
 .proflie-review ul li a span {
-	color: #fff;
-  font-weight: 600;
+	color: #000;
+	font-weight: 600;
 }
 /* ========== */
 
@@ -1401,7 +1410,8 @@ body {
 	/* border: 1px solid #2d2d2d; */
 	/* height: 35vh; */
 	border-radius: 10px;
-  /* background-image: url(../img2/ads1.png); */
+	/* background-image: url(../img2/ads1.png); */
+	box-shadow: #18191A 2px 2px 13px -9px;
 }
 .front-dashbord-add img {
 	border-radius: 10px;
