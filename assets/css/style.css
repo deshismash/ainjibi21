@@ -1597,19 +1597,19 @@ a {
 
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
-.sexytabs>ul {
-    text-align: center;
-    font-weight: 500;
-    margin: 50px 0 0;
-    padding: 0;
-    position: relative;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    z-index: 1;
+.sexytabs > ul {
+	text-align: center;
+	font-weight: 500;
+	/* margin: 50px 0 0; */
+	padding: 0;
+	position: relative;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	z-index: 1;
 }
 
 .sexytabs > ul > li {
 	display: inline-block;
-	background: #fafafa;
+	background: #f9f9f9;
 	padding: 0.6em 0;
 	position: relative;
 	width: 16.66%;
@@ -1784,4 +1784,71 @@ h1 {
         float: left;
         padding: 0;
     }
+}
+
+
+
+
+
+
+
+
+
+/* persnal profile  */
+.single-profile {
+	background: #F5F6F6;
+	padding: 50px 0px;
+}
+.sp-wraper {
+	display: block;
+	margin: 0;
+	padding: 1.5rem;
+	width: 20.3125rem;
+	background: #fff;
+	border: 1px solid #d4d4d4;
+	position: relative;
+  text-align: center;
+}
+.sp-wraper h2 {
+	margin: 0 0 .9375rem;
+	padding: 0;
+	font-family: Hind,sans-serif;
+	font-weight: 500 !important;
+	font-size: 1.75rem;
+	line-height: 1.875rem;
+	color: #a4aeae;
+	text-align: center;
+	text-transform: none;
+}
+.pbl-btn-contact-chat {
+	/* display: block; */
+	margin-bottom: 25px;
+	padding: 12px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.1875rem;
+	text-transform: capitalize;
+	color: #fff;
+	text-align: center;
+	background: #1098db;
+	border-radius: 4px;
+	width: 100%;
+	border: 0;
+}
+.sp-wraper ul li {
+	color: #1098db;
+	display: initial;
+	margin: 10px;
+}
+.sp-wraper ul li a {
+	color: #1098db;
+	text-decoration: none;
+}
+.sp-location {
+	color: #a4aeae;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.sp-location i {
+	color: #1098db;
 }
