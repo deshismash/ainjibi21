@@ -78,6 +78,7 @@ body {
 .nav-bar ul li a i {
 	color: #000;
 	font-size: 25px;
+	margin-top: 11px;
 }
 .nav-link {
   color: #000 !important;
