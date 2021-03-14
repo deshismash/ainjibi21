@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLKS</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+        .sexytabs>ul {
+            text-align: center;
+            font-weight: 500;
+            margin: 50px 0 0;
+            padding: 0;
+            position: relative;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .sexytabs>ul>li {
+            display: inline-block;
+            background: #fafafa;
+            padding: 0.6em 0;
+            position: relative;
+            width: 33%;
+            margin: 0 0 0 -4px;
+        }
+        
+        .sexytabs>ul>li:before,
+        .sexytabs>ul>li:after {
+            opacity: 0;
+            transition: 0.3s ease;
+        }
+        
+        .sexytabs>ul>li.ui-tabs-active:before,
+        .sexytabs>ul>li.ui-tabs-active:after,
+        .sexytabs>ul>li.ui-state-hover:before,
+        .sexytabs>ul>li.ui-state-hover:after,
+        .sexytabs>ul>li.ui-state-focus:before,
+        .sexytabs>ul>li.ui-state-focus:after {
+            opacity: 1;
+        }
+        
+        .sexytabs>ul>li:before,
+        .sexytabs>ul>li.ui-state-active.ui-state-hover:before,
+        .sexytabs>ul>li.ui-state-active.ui-state-focus:before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            box-shadow: 0 2px 3px rgba(22, 195, 255, 0.5);
+            top: 50%;
+            bottom: 0px;
+            left: 5px;
+            right: 5px;
+            border-radius: 100px / 10px;
+        }
+        
+        .sexytabs>ul>li:after,
+        .sexytabs>ul>li.ui-state-active.ui-state-hover:after,
+        .sexytabs>ul>li.ui-state-active.ui-state-focus:after {
+            content: "";
+            background: #fafafa;
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            left: 50%;
+            bottom: -6px;
+            margin-left: -6px;
+            transform: rotate(45deg);
+            box-shadow: inset 3px 3px 3px rgba(22, 195, 255, 0.5), inset 1px 1px 1px rgba(0, 0, 0, 0.3);
+        }
+        
+        .sexytabs>ul>li.ui-state-hover:before,
+        .sexytabs>ul>li.ui-state-focus:before {
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        }
+        
+        .sexytabs>ul>li.ui-state-hover:after,
+        .sexytabs>ul>li.ui-state-focus:after {
+            box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.2), inset 1px 1px 1px rgba(0, 0, 0, 0.3);
+        }
+        
+        .sexytabs>ul>li.ui-state-focus a {
+            text-decoration: underline;
+        }
+        
+        .sexytabs>ul>li:focus {
+            outline: none;
+        }
+        
+        .sexytabs>ul>li a {
+            color: #444;
+            text-decoration: none;
+        }
+        
+        .sexytabs>ul>li a:focus {
+            outline: none;
+        }
+        
+        .sexytabs>ul>li a span {
+            position: relative;
+            top: -0.5em;
+        }
+        
+        .sexytabs.dark>ul {
+            border-bottom-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        .sexytabs.dark>ul>li {
+            background: #333;
+        }
+        
+        .sexytabs.dark>ul>li:before,
+        .sexytabs.dark>ul>li.ui-state-active.ui-state-hover:before,
+        .sexytabs.dark>ul>li.ui-state-active.ui-state-focus:before {
+            box-shadow: 0 2px 3px rgba(255, 255, 255, 0.3);
+        }
+        
+        .sexytabs.dark>ul>li:after,
+        .sexytabs.dark>ul>li.ui-state-active.ui-state-hover:after,
+        .sexytabs.dark>ul>li.ui-state-active.ui-state-focus:after {
+            background: #333;
+            box-shadow: inset 3px 3px 3px rgba(255, 255, 255, 0.3), inset 1px 1px 1px rgba(255, 255, 255, 0.5);
+        }
+        
+        .sexytabs.dark>ul>li.ui-state-hover:before,
+        .sexytabs.dark>ul>li.ui-state-focus:before {
+            box-shadow: none;
+        }
+        
+        .sexytabs.dark>ul>li.ui-state-hover:after,
+        .sexytabs.dark>ul>li.ui-state-focus:after {
+            box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.4);
+        }
+        
+        .sexytabs.dark>ul>li a {
+            color: white;
+        }
+        
+        img {
+            width: 60px;
+            float: left;
+            margin: 0 1em 1em 0;
+            border-radius: 3px;
+        }
+        
+        body {
+            font-size: 1em;
+            background: #fafafa;
+            font-family: Lato;
+            font-weight: 300;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 20px;
+        }
+        
+        .sexytabs {
+            width: 90%;
+            min-width: 360px;
+            margin: auto;
+        }
+        
+        .contents {
+            padding: 20px 50px;
+            min-height: 200px;
+        }
+        
+        .darkpage {
+            background: #333;
+            color: white;
+        }
+        
+        .darkpage,
+        .lightpage {
+            padding: 50px 0;
+        }
+        
+        @media screen and (min-width: 1000px) {
+            .darkpage,
+            .lightpage {
+                width: 50%;
+                float: left;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Updated for multi-gender dark action, oorah!</h1>
+
+    <div class="lightpage">
+
+        <div class="sexytabs">
+
+            <ul>
+                <li>
+                    <a href="#Beyonce">
+                        <span>Bootylicious</span></a>
+                </li>
+                <li>
+                    <a href="#Fergie">
+                        <span>Fergalicious</span></a>
+                </li>
+                <li>
+                    <a href="#Rihanna">
+                        <span>Umbrella?</span></a>
+                </li>
+            </ul>
+
+            <div class="contents">
+                <div id="Beyonce">
+                    <h2>Beyonce</h2>
+                    <img src="http://thumbs.hotnewhiphop.com/public/article/600_1359954424_17651c4dc1a8d1c5ba1c472544c51114.jpeg">
+                    <p>American Apparel locavore iPhone wayfarers put a bird on it. Whatever McSweeney's Banksy letterpress Marfa. Drinking vinegar PBR synth, tote bag kale chips typewriter shabby chic mlkshk. Twee Wes Anderson semiotics Blue Bottle Tumblr,
+                        locavore ennui squid. Blog tofu paleo try-hard mustache bicycle rights DIY. Forage quinoa DIY master cleanse. Freegan tote bag squid keffiyeh, sriracha try-hard tousled gentrify McSweeney's pickled pork belly Neutra literally.</p>
+
+                    <p>Actually synth Thundercats, pug direct trade wayfarers Schlitz. Gluten-free beard pickled wolf, vinyl cliche paleo authentic brunch Blue Bottle chambray keffiyeh Marfa 8-bit post-ironic. Lo-fi fixie occupy small batch. Salvia keytar
+                        cliche, occupy Brooklyn disrupt Helvetica gluten-free art party stumptown freegan gastropub cred. Freegan Truffaut keffiyeh Terry Richardson lo-fi, hoodie ennui. Readymade deep v selvage, tote bag church-key authentic flexitarian
+                        craft beer four loko biodiesel. VHS hashtag small batch drinking vinegar, wolf distillery YOLO post-ironic narwhal sustainable.</p>
+
+                </div>
+
+                <div id="Fergie">
+                    <h2>Fergie</h2>
+                    <img src="https://si0.twimg.com/profile_images/3282720177/1cfde8d5260721552f31a26cff5ccc22.png">
+                    <p>Bushwick semiotics meh artisan, whatever gastropub pop-up narwhal Cosby sweater stumptown VHS synth kogi art party McSweeney's. Helvetica locavore actually cray paleo. +1 PBR gentrify, direct trade narwhal tattooed polaroid Helvetica
+                        readymade wolf Tumblr authentic try-hard hella. Try-hard 90's gentrify art party. Helvetica Intelligentsia +1, banjo try-hard tote bag organic fashion axe gluten-free chambray stumptown Echo Park beard. Craft beer DIY beard, roof
+                        party tofu plaid sustainable Tonx. Small batch letterpress salvia sartorial deep v ugh, High Life aesthetic hoodie Neutra Vice freegan flannel.</p>
+
+                </div>
+
+                <div id="Rihanna">
+                    <h2>Rihanna</h2>
+                    <img src="http://s1.evcdn.com/images/block/I0-001/001/867/008-9.jpeg_/rihanna-08.jpeg">
+                    <p>Chambray typewriter Odd Future, cliche Wes Anderson High Life Banksy cred bespoke Intelligentsia ethnic. YOLO gluten-free blog kale chips. Cliche Shoreditch church-key direct trade banjo ugh, forage pug meh typewriter yr chillwave
+                        wayfarers small batch. Trust fund Carles forage disrupt photo booth. Truffaut lo-fi Schlitz, Blue Bottle hoodie synth Thundercats. Actually cliche put a bird on it kitsch, ethical Thundercats synth drinking vinegar gluten-free
+                        lomo try-hard direct trade. Chambray viral you probably haven't heard of them salvia, ugh Pitchfork Terry Richardson selvage master cleanse.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="darkpage">
+
+        <div class="sexytabs dark">
+
+            <ul>
+                <li>
+                    <a href="#Gosling">
+                        <span>Jottings</span></a>
+                </li>
+                <li>
+                    <a href="#Timberlake">
+                        <span>Benefits</span></a>
+                </li>
+                <li>
+                    <a href="#Lautner">
+                        <span>Furry?</span></a>
+                </li>
+            </ul>
+
+            <div class="contents">
+                <div id="Gosling">
+                    <h2>Gosling</h2>
+                    <img src="http://imworld.aufeminin.com/story/20130805/ryan-gosling-56940_s96cx345cy200.jpg">
+                    <p>American Apparel locavore iPhone wayfarers put a bird on it. Whatever McSweeney's Banksy letterpress Marfa. Drinking vinegar PBR synth, tote bag kale chips typewriter shabby chic mlkshk. Twee Wes Anderson semiotics Blue Bottle Tumblr,
+                        locavore ennui squid. Blog tofu paleo try-hard mustache bicycle rights DIY. Forage quinoa DIY master cleanse. Freegan tote bag squid keffiyeh, sriracha try-hard tousled gentrify McSweeney's pickled pork belly Neutra literally.</p>
+
+                    <p>Actually synth Thundercats, pug direct trade wayfarers Schlitz. Gluten-free beard pickled wolf, vinyl cliche paleo authentic brunch Blue Bottle chambray keffiyeh Marfa 8-bit post-ironic. Lo-fi fixie occupy small batch. Salvia keytar
+                        cliche, occupy Brooklyn disrupt Helvetica gluten-free art party stumptown freegan gastropub cred. Freegan Truffaut keffiyeh Terry Richardson lo-fi, hoodie ennui. Readymade deep v selvage, tote bag church-key authentic flexitarian
+                        craft beer four loko biodiesel. VHS hashtag small batch drinking vinegar, wolf distillery YOLO post-ironic narwhal sustainable.</p>
+
+                </div>
+
+                <div id="Timberlake">
+                    <h2>Timberlake</h2>
+                    <img src="http://imalbum.aufeminin.com/album/D20121228/894767_Z5RAJN1HEXWRQGYCFUTKD8AVQ8ZMXS_justin-timberlake_H124540_S.jpg">
+                    <p>Bushwick semiotics meh artisan, whatever gastropub pop-up narwhal Cosby sweater stumptown VHS synth kogi art party McSweeney's. Helvetica locavore actually cray paleo. +1 PBR gentrify, direct trade narwhal tattooed polaroid Helvetica
+                        readymade wolf Tumblr authentic try-hard hella. Try-hard 90's gentrify art party. Helvetica Intelligentsia +1, banjo try-hard tote bag organic fashion axe gluten-free chambray stumptown Echo Park beard. Craft beer DIY beard, roof
+                        party tofu plaid sustainable Tonx. Small batch letterpress salvia sartorial deep v ugh, High Life aesthetic hoodie Neutra Vice freegan flannel.</p>
+
+                </div>
+
+                <div id="Lautner">
+                    <h2>Lautner</h2>
+                    <img src="https://fbexternal-a.akamaihd.net/safe_image.php?d=AQBvPhI8Zh8E1VfV&w=155&h=114&url=http%3A%2F%2Ffiles-cdn.formspring.me%2Fprofile%2F20110812%2Fn4e45d53be5a76_medium.jpg">
+                    <p>Chambray typewriter Odd Future, cliche Wes Anderson High Life Banksy cred bespoke Intelligentsia ethnic. YOLO gluten-free blog kale chips. Cliche Shoreditch church-key direct trade banjo ugh, forage pug meh typewriter yr chillwave
+                        wayfarers small batch. Trust fund Carles forage disrupt photo booth. Truffaut lo-fi Schlitz, Blue Bottle hoodie synth Thundercats. Actually cliche put a bird on it kitsch, ethical Thundercats synth drinking vinegar gluten-free
+                        lomo try-hard direct trade. Chambray viral you probably haven't heard of them salvia, ugh Pitchfork Terry Richardson selvage master cleanse.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script>
+        // just some interesting CSS
+        // for tabbed content 🙂
+        //
+        // inspired by:
+        // https://www.google.com/intl/en-GB/chrome/devices/chromecast
+
+
+        $(".sexytabs").tabs({
+            show: {
+                effect: "slide",
+                direction: "left",
+                duration: 200,
+                easing: "easeOutBack"
+            },
+            hide: {
+                effect: "slide",
+                direction: "right",
+                duration: 200,
+                easing: "easeInQuad"
+            }
+        });
+    </script>
+</body>
+
+</html>
