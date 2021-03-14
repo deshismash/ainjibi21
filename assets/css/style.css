@@ -58,8 +58,8 @@ body {
 
 /* Menu CSS  */
 .main-menu-area {
-  /* padding: 15px 0px; */
-  background-color: #ededed;
+	/* padding: 15px 0px; */
+	background-color: #fbfbfb;
 }
 .nav-link {
   color: #000 !important;
@@ -1049,11 +1049,11 @@ body {
 }
 
 .admin-main-content {
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
-  border: 1px solid #e5e5e5;
-  /* height: 50vh; */
-  /* margin-top: 30px; */
-  padding: 50px;
+	/* box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15); */
+	border: 1px solid #e5e5e5;
+	/* height: 50vh; */
+	/* margin-top: 30px; */
+	padding: 50px;
 }
 .menu-title i {
   font-size: 20px;
@@ -1250,11 +1250,42 @@ body {
   transition: .3s;
 }
 
+
+
+
+
 /* content area  */
+
+
+/* ========== */
+
+.header {
+	background: url('../img/dashbord/dashbord-header.jpg');
+	height: 30vh;
+	background-size: cover;
+	background-position: center;
+}
+.dashbord-profile.img-fluid {
+	border-radius: 50%;
+	height: 140px;
+	width: 140px;
+	margin-top: -65px;
+	padding: 10px;
+	background: #fff;
+	margin-left: 10px;
+}
+
+
+
+
+/* ========== */
+
+
+
 .twit-front-dashbord-content {
 	margin-bottom: 25px;
-  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
-	/* border: 1px solid #e5e5e5; */
+	/* box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15); */
+	border: 1px solid #e5e5e5;
 	/* height: 50vh; */
 	/* margin-top: 30px; */
 	padding: 50px;
@@ -1283,13 +1314,18 @@ body {
 }
 
 
+
+
+
+
+
 /* ads area  */
 
 .front-dashbord-add {
 	margin-bottom: 55px;
 	padding: 10px 0;
-	box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15);
-	/* border: 1px solid #e5e5e5; */
+	/* box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.15); */
+	border: 1px solid #e5e5e5;
 	height: 35vh;
 }
 .content-img{

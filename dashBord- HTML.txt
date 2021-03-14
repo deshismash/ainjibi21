@@ -1,0 +1,18 @@
+ <div class="twit-front-dashbord-content">
+                                <div class="twi-profile-img">
+                                    <img src="assets/img/admin.jpg" alt="">
+                                </div>
+                                <h5>NYT Health <br>
+                                    <span>@username</span>
+                                </h5>
+
+                                <p class="twit-front-main-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the </p>
+                                <img src="assets/img/content.png" class="img-fluid content-img" alt="">
+                            </div>
+                            <div class="admin-main-content">
+                                <h4 class="admin-content-title">Message <span> @username </span></h4>
+                                <p class="admin-content-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The pointIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </p> <br>
+                                <p class="admin-content-text">Ipsum is that it has a more-or-less normal distrib, as opposed to using 'Content here, content here', making it look like as opposed to using 'Content here, content here', making it look like  </p>
+                                <p class="admin-content-text">Ipsum is that it has a more-or-less normal distribution of letters, as opposed  as opposed to using 'Content here, content here', making it look like  </p>
+                            </div>
+                            
