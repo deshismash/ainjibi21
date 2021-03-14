@@ -61,10 +61,13 @@ body {
 	width: 100% !important;
 	margin: 0 auto;
 	padding: 12px;
+	background: #F1F3F4;
+	border-radius: 10px;
+	/* border: 1px solid #F1F3F4; */
 }
 .main-menu-area {
 	padding: 15px 0px;
-	background-color: #f0f0f0;
+	background-color: #fff;
 }
 .nav-bar ul li {
 	display: inline;
