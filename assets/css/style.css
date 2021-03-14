@@ -1306,7 +1306,7 @@ body {
 	box-shadow: #18191A 2px 2px 13px -9px;
 }
 .edit-button {
-	font-size: 15px;
+	font-size: 12px;
 	background: none;
 	text-align: center;
 	padding: 10px;
@@ -1749,8 +1749,8 @@ h1 {
 }
 
 .contents {
-    padding: 20px 50px;
-    min-height: 200px;
+	padding: 20px 50px;
+	min-height: 500px;
 }
 
 .darkpage {
