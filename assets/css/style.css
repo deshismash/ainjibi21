@@ -1275,7 +1275,28 @@ body {
 	margin-left: 10px;
 }
 
-
+.twit-front-dashbord-main {
+	border: 1px solid #e5e5e5;
+}
+.edit-button {
+	font-size: 15px;
+	background: none;
+	text-align: center;
+	padding: 10px;
+	border-radius: 17px;
+	color: #1DA1F2;
+	font-weight: bold;
+	cursor: pointer;
+	border: 1px solid #1DA1F2;
+	margin-top: 10px;
+}
+.header-title a {
+	text-decoration: none;
+}
+.edit-button:hover{
+  background-color: #E8F5FE;
+  transition: .3s;
+}
 
 
 /* ========== */
