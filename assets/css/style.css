@@ -1533,3 +1533,63 @@ body {
 .sp-location i {
 	color: #1098db;
 }
+
+/* ================================================================= msprofile css start ================================================================= */
+
+.ms-main-gry-bg {
+	background: #FAFAFA;
+	padding: 50px 0px;
+}
+.ms-profile-avatar img {
+	margin: 0 0 16px 0;
+	position: relative;
+	background: #fff;
+	text-align: center;
+	display: flex;
+	border-radius: 5px;
+	border: 1px solid rgba(36,44,66,.2);
+	padding: 5px;
+	height: 240px;
+}
+.row.sc-padding {
+	background: #fff;
+	padding: 30px;
+	border-radius: 10px;
+}
+.btn.ms-review-btn {
+	width: 76%;
+	background: #ff5a5f;
+	color: #fff;
+	font-weight: bold;
+  border-radius: 5px;
+	padding: 10px;
+}
+
+.product-details {
+	border: 1px solid #e2e2e2;
+	border-radius: 5px;
+	margin-bottom: 16px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.ms-right-hig {
+	display: block ruby;
+}
+.highlight-head {
+	background: rgba(237,241,244,.5);
+	font-size: 16px;
+	font-weight: 400;
+	padding: 0 16px;
+	margin: 0;
+	line-height: 45px;
+	color: #5d5d5d;
+	overflow: hidden;
+  
+}
+.row.highlight-head h3 {
+	margin-top: 24px;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+/* ================================================================= msprofile css end ================================================================= */
