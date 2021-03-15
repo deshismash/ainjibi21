@@ -1550,6 +1550,7 @@ body {
 	border: 1px solid rgba(36,44,66,.2);
 	padding: 5px;
 	height: 240px;
+  width:100%;
 }
 .row.sc-padding {
 	background: #fff;
@@ -1557,7 +1558,7 @@ body {
 	border-radius: 10px;
 }
 .btn.ms-review-btn {
-	width: 76%;
+  width:100%;
 	background: #ff5a5f;
 	color: #fff;
 	font-weight: bold;
@@ -1624,9 +1625,50 @@ body {
 .fnt20 span {
 	background: #44a512;
 	color: #fff;
-	padding: 10px;
-	border-radius: 11px;
-  font-size: 22px;
+	padding: 5px 27px;
+	border-radius: 6px;
+	font-size: 22px;
+  margin-left: 6px;
 }
 
+
+.dvrating {
+	padding: 10px 0px;
+}
+.summary .express-ratings {
+	text-align: right;
+	margin-top: 10px;
+}
+.express-ratings > div:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.express-ratings > div:nth-child(5) {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.express-ratings {
+	margin-top: 10px;
+}
+.express-ratings > div {
+	width: 18%;
+	max-width: 46px;
+	padding: 4px;
+	float: left;
+	margin-right: 2px;
+}
+.bgcolor-3 {
+	border: 1px solid #50e3c2;
+	background: #50e3c2;
+}
+.unrated-unirating {
+	border: 1px solid #d1d2d4;
+	background: #d1d2d4;
+}
+.dvrating-text {
+	font-size: 13px;
+	margin: 0;
+	font-weight: 600;
+	color: #242c42;
+}
 /* ================================================================= msprofile css end ================================================================= */

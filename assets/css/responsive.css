@@ -4,9 +4,9 @@
     max-width: 1440px !important;
   }
 }
-@media only screen and (max-width: 1920px){
+@media only screen and (width: 1920px){
   .container {
-    max-width: 1700px !important;
+    max-width: 1440px !important;
   }
 }
 /* Tablet-Device 768px  */
