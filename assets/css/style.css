@@ -1731,21 +1731,62 @@ p.span {
 	border-top: 1px solid rgba(155,155,155,.4);
 	margin-bottom: -8px;
 }
-.rp-title{
-  color: #242c42;
-  text-transform: capitalize;
-  font-size: 22px;
+.rp-title {
+	color: #242c42;
+	text-transform: capitalize;
+	font-size: 22px;
+	display: none;
 }
 
 .rev-profile {
 	display: block ruby;
+	margin-top: 10px;
 }
 .rating-fnt-change span i {
 	font-size: 16px;
 }
 p.last-update {
-	color: rgba(36,44,66,.6);
-	font-size: 14px;
+	color: rgba(36,44,66,.6) !important;
+	font-size: 14px !important;
+}
+p.review-view-count {
+	font-size: 14px !important;
+  color: rgba(69, 91, 151, 0.6) !important;
+}
+.personal-reviews-contents{}
+.pr-text{
+  color: #242c42 !important;
+}
+.pr-like-comment-share a{
+  text-decoration: none;
+  color: rgba(69, 91, 151, 0.6) !important;
+}
+.pr-like-comment-share a i {
+	margin: 0px 13px;
+	color: rgba(69, 91, 151, 0.6) !important;
+	margin-top: 20px;
+	font-size: 18px;
+}
+.fas.fa-thumbs-up {
+	margin-left: 3px;
+}
+.section-divider {
+	border-top: 1px solid #e5e5e5;
+	clear: both;
+	margin: 35px 50px;
+	background: red;
+	height: 1px;
+	width: 100%;
+	border-radius: 10px;
+}
+.page-item.active .page-link {
+	z-index: 1;
+	color: #fff;
+	background-color: #44a512;
+	border-color: #44a512;
+}
+.pag-area{
+  padding-bottom: 15px;
 }
 /* ================================================================= msprofile css end ================================================================= */
 
@@ -1925,7 +1966,7 @@ h1 {
 	background: #fff;
 	margin-top: 25px;
 	border-radius: 10px;
-  box-shadow: #18191A 2px 2px 13px -9px;
+  border: 1px solid rgba(36,44,66,.2);
 }
 .contents p {
 	color: #000;
@@ -1936,10 +1977,9 @@ h1 {
 	color: #000;
 }
 @media screen and (min-width: 1000px) {
-    .darkpage,
-    .lightpage {
-        /* width: 50%; */
-        float: left;
-        padding: 0;
-    }
+  .darkpage, .lightpage {
+    /* width: 50%; */
+    float: left;
+    padding: 4px 0px;
+  }
 }
