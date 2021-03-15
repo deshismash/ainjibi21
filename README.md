@@ -1,3 +1,6 @@
+# Single Profile Page
+Live View : https://deshismash.github.io/ainjibi21/msprofile.html
+
 # ainjibi21
 Live View : https://deshismash.github.io/ainjibi21/
 
