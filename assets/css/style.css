@@ -1584,12 +1584,49 @@ body {
 	line-height: 45px;
 	color: #5d5d5d;
 	overflow: hidden;
-  
+  border:1px solid #ededed;
+  border-bottom: 0;
+  border-radius: 10px 10px 0px 0px;
+}
+.highlight-bottom {
+	background: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 20px 16px;
+	margin: 0;
+	line-height: 45px;
+	color: #5d5d5d;
+	overflow: hidden;
+	border: 1px solid #ededed;
+	border-top: 0;
+	border-radius: 0px 0px 10px 10px;
 }
 .row.highlight-head h3 {
 	margin-top: 24px;
 	font-size: 17px;
 	font-weight: bold;
+}
+.icon-rating {
+	font-size: 23px;
+	color: #f5a100 !important;
+	font-weight: normal;
+}
+.fnt30 {
+	font-size: 23px;
+	color: red;
+	font-weight: bold;
+}
+.fnt30 span{
+  color:#000;
+  margin-left: 6px;
+}
+.fnt20{font-size:20px}
+.fnt20 span {
+	background: #44a512;
+	color: #fff;
+	padding: 10px;
+	border-radius: 11px;
+  font-size: 22px;
 }
 
 /* ================================================================= msprofile css end ================================================================= */
