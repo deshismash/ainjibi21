@@ -1671,4 +1671,33 @@ body {
 	font-weight: 600;
 	color: #242c42;
 }
+
+.spnUpdateDate {
+	font-size: 13px;
+	font-weight: 500;
+	color: rgba(36, 44, 66, 0.41);
+	margin-top: 10px;
+	margin-left: 1px;
+}
+.flow-share {
+	margin-top: 5px;
+}
+.flows {
+	color: #fff;
+	border: 1px solid #44a512;
+	background-color: #44a512;
+	-webkit-transition: color .5s,background-color .5s;
+	transition: color .5s,background-color .5s;
+}
+.flow {
+	color: #44a512;
+	border: 1px solid #44a512;
+	background-color: #fff;
+	-webkit-transition: color .5s,background-color .5s;
+	transition: color .5s,background-color .5s;
+}
+.flow:hover {
+	color: #fff !important;
+	background-color: #44a512;
+}
 /* ================================================================= msprofile css end ================================================================= */
