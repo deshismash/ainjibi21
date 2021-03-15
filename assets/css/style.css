@@ -57,18 +57,61 @@ body {
 /* Universilal CSS  END */
 
 /* Menu CSS  */
+
+/* sticky nav  */
+.navh{
+  z-index: 999 !important;
+  /* background-color: red; */
+}
+.is-sticky{
+  background-color:red;
+}
+/*Sticky Div CSS*/
+#sticky.stick {
+	margin-top: 0;
+	position: fixed;
+	top: 0;
+	z-index: 10000;
+	width: 100%;
+	/* left: 15px; */
+	padding: 20px 0px;
+}
+#sticky.stick::after {
+  position: absolute;
+  background: #fff;
+  width: 100% !important;
+  height: 100%;
+  top: 0;
+  left: 0px;
+  content: '';
+  z-index: -1;
+  opacity: 1;
+  border-bottom: 1px solid #00000029;
+  padding-bottom: 10px;
+  box-shadow: #f1f3f4 0 8px 11px 0px;
+  transition: .3s linear;
+}
 .header-search input {
 	width: 100% !important;
 	margin: 0 auto;
 	padding: 12px;
 	background: #F1F3F4;
 	border-radius: 10px;
-	/* border: 1px solid #F1F3F4; */
+	border: 1px solid #F1F3F4;
+	/* border: 0; */
 }
 .main-menu-area {
-	padding: 15px 0px;
+	padding: 20px 0px;
 	background-color: #fff;
 }
+/* .main-menu-area {
+	padding: 20px 0px;
+	background-color: #fff;
+	position: fixed;
+	overflow: hidden;
+	width: 100%;
+	z-index: 99;
+} */
 .nav-bar ul li {
 	display: inline;
 	margin: 0px 10px;
@@ -570,9 +613,12 @@ body {
 
 /* Footer css  */
 .footer-area {
-  background: #1f2130;
-  padding: 50px 0px;
-  color: #fff;
+	background: #1f2130;
+	padding: 50px 0px;
+	color: #fff;
+	z-index: 9 !important;
+	overflow: hidden;
+	position: sticky;
 }
 .form-control:focus {
   color: #495057;
@@ -1291,10 +1337,12 @@ body {
 	background: #fff;
 	/* color: #fff !important; */
 	height: 100vh;
-  /* width: 25%; */
+	/* width: 25%; */
 	border-radius: 10px;
 	/* box-shadow: #18191A 2px 2px 13px -9px; */
-  /* position: fixed; */
+	position: fixed;
+	width: 25%;
+	/* z-index: -1; */
 }
 
 
