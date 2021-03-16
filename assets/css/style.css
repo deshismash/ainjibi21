@@ -86,7 +86,7 @@ body {
   content: '';
   z-index: -1;
   opacity: 1;
-  border-bottom: 1px solid #00000029;
+  /* border-bottom: 1px solid #00000029; */
   padding-bottom: 10px;
   box-shadow: #f1f3f4 0 8px 11px 0px;
   transition: .3s linear;
@@ -1362,7 +1362,7 @@ body {
 
 .dashbord-main {
 	padding: 30px 0px;
-	/* background: #eee; */
+	background: #fff;
 	color: #fff;
 }
 .frnt-dashbord-menu ul li {
@@ -2129,3 +2129,124 @@ h1 {
     padding: 4px 0px;
   }
 }
+
+
+
+
+/* Notifacition css  */
+.notifaction {
+	padding: 50px;
+}
+.notifacation-box {
+	background: #fff;
+	border-radius: 15px;
+	box-shadow: 3px 5px 14px 1px;
+	padding: 50px 0px;
+}
+
+.noti-single-box {
+	margin-top: 20px !important;
+	border: 1px solid #ededed;
+	margin: 0px 20px;
+	border-radius: 10px;
+}
+.noti-img img {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.notifacation-box h3 {
+	margin-left: 25px;
+	color: ;
+	font-weight: bold;
+}
+.noti-single-content {
+	margin-left: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.noti-messaage {
+	text-transform: lowercase;
+	font-size: 15px;
+	color: #3333;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.noti-name {
+	text-transform: capitalize;
+	color: #353434;
+}
+.noti-btn button {
+	background: none;
+	border: 1px solid;
+	border-radius: 14px;
+	font-size: 12px;
+	border-color: #18E6E3 #CA86FE #77B3F1 #9BA0F6;
+}
+
+.goog-notifaction{
+  padding: 50px 0px;
+}
+.btn-outline-success {
+	color: #060606;
+	border-color: #e0e6e2;
+}
+
+
+/* Full screen notifaction  */
+.fls-notifaction {
+	background-image: url(../img/svg/blob-scene-haikei.svg);
+	/* padding: 50px 0px; */
+	background-size: cover;
+	background-position: center;
+	/* height: 100vh; */
+  padding: 150px 0px;
+}
+
+.fls-noti-area {
+	background: #fff;
+	border-radius: 9px;
+	box-shadow: #000 0px 0px 5px 0px;
+}
+.fls-icon {
+	background: #E9F5F3;
+	padding: 30px;
+	/* clip-path: polygon(0 2%, 70% 0%, 100% 30%, 110% 70%, 70% 100%, 0 99%, 0% 70%, 0% 30%); */
+	border-radius: 9px 100px 100px 9px;
+}
+.fls-icon img {
+	height: 2.5rem;
+	margin-left: -11px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.fls-text {
+	color: #3D445A !important;
+	margin-top: 46px;
+	margin-bottom: 32px;
+}
+.fls-text h5 {
+	font-weight: bold;
+}
+.fls-text p {
+	font-weight: normal;
+	font-size: 15px;
+	margin-top: 3px;
+}
+.fls-text h5 span {
+	float: right;
+	background: #FAF2FB;
+	padding: 0px 16px;
+	text-align: center;
+	margin-top: -20px;
+	color: #A4A6B3;
+	border-radius: 7px;
+	cursor: pointer;
+	/* padding-left: 38px; */
+	margin-right: 20px;
+	line-height: 2;
+}
+
+
