@@ -193,10 +193,15 @@ body {
   white-space: nowrap;
 }
 
-.hero-area .form-control {
+/* .hero-area .form-control {
   height: 60px;
   padding-left: 47px;
   font-size: 18px;
+} */
+.hero-area .form-control {
+	height: 60px;
+	/* padding-left: 47px; */
+	font-size: 18px;
 }
 
 .search-btn-box .icon-search {
@@ -1850,8 +1855,22 @@ p.review-view-count {
 	background-color: #44a512;
 	border-color: #44a512;
 }
-.pag-area{
-  padding-bottom: 15px;
+.pag-area {
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.pagination ul {
+	/* text-align: center; */
+	font-weight: 500;
+	/* margin: 50px 0 0; */
+	padding: 0;
+	position: relative;
+	border-bottom: 0 !important;
+	z-index: 1;
+}
+.pagination.text-center li {
+	border: 0;
+	border-bottom: 0 !important;
 }
 /* ================================================================= msprofile css end ================================================================= */
 
