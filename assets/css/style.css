@@ -20,6 +20,7 @@
     Reset Css
 	==========================================
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 /* All Display None CSS Start */
 .download-apk {
@@ -48,9 +49,11 @@ h5,
 h6,
 p {
   margin: 0;
+ 
 }
 body {
   /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: 'Roboto', sans-serif !important;
 }
 /* Universilal CSS  */
 
@@ -2066,17 +2069,6 @@ p.review-view-count {
 }
 
 
-body {
-    font-size: 1em;
-    background: #fafafa;
-    font-family: Lato;
-    font-weight: 300;
-}
-
-h1 {
-    text-align: center;
-    font-size: 20px;
-}
 
 .sexytabs {
     width: 100%;
