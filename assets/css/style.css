@@ -2250,3 +2250,10 @@ h1 {
 }
 
 
+.noti-btn {
+  display: block ruby;
+}
+.noti-btn button {
+  padding: 6px 9px;
+  margin-top: 10px;
+}
