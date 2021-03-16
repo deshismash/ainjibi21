@@ -1,10 +1,10 @@
 /*------------------------------------------------------------------
 	[Master Stylesheet]
 	
-	Project:    Project Name
+	Project:    Ainjibi
 	Version:    1.0
-	Last change:    24/03/17 [fixed Float bug, vf]
-	Author Name: Author Name
+	Last change:    
+	Author Name: DeshiSmash Developer
 	Primary use:    Project Type
 -------------------------------------------------------------------*/
 
@@ -1305,7 +1305,52 @@ body {
   text-transform: capitalize;
 }
 
+/* single dashbord css  */
 
+.sd-title {
+	font-family: 'Google Sans',Roboto,Arial,sans-serif;
+	font-size: 1.375rem;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 1.75rem;
+	margin-bottom: 10px;
+	hyphens: auto;
+	color: #202124;
+}
+.sd-text {
+	letter-spacing: .01428571em;
+	font-family: Roboto,Arial,sans-serif;
+	font-size: .875rem;
+	font-weight: 400;
+	line-height: 1.25rem;
+	-moz-hyphens: auto;
+	hyphens: auto;
+	word-break: break-word;
+	word-wrap: break-word;
+	color: #5f6368;
+}
+.sd-box {
+	padding: 40px;
+	border: 1px solid #DADCE0;
+	border-radius: 15px 15px 0px 0px;
+	margin-top: 50px;
+}
+.sd-btn {
+	font-weight: 500;
+	color: #1a73e8;
+  text-decoration: none !important;
+}
+.sd-box-btn:hover{
+  background: #fff;
+  transition: .3s;
+  cursor: pointer;
+}
+.sd-box-btn {
+	padding: 13px 0px;
+	border-top: 0 !important;
+	border-radius: 0px 0px 15px 15px;
+	border: 1px solid #DADCE0;
+}
 /* twitter Dash Bord CSS  */
 
 
@@ -1873,6 +1918,8 @@ p.review-view-count {
 	border-bottom: 0 !important;
 }
 /* ================================================================= msprofile css end ================================================================= */
+
+
 
 /* new tab  */
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
