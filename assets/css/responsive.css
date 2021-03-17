@@ -196,9 +196,12 @@
   .admin-main-content {
     padding: 20px;
   }
+
+
+
 }
 /* Mobile M 375px Device */
-@media only screen and (width: 375px) {
+@media only screen and (max-width: 375px) {
   /* Home page  */
   .main-menu-area {
     /* padding: 15px 0px; */
@@ -282,6 +285,23 @@
   .admin-main-content {
     padding: 20px;
   }
+
+/* ms2 responsive  */
+.container {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
+
+
+
+
 }
 /* Mobile L 425px Device */
 @media only screen and (width: 425px) {
