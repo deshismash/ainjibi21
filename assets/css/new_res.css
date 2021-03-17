@@ -17,8 +17,73 @@
     margin-top: 35px;
 }
 .category-area {
-	padding: 0px;
+	padding-top: 0px;
+    padding-bottom: 50px;
 }
 .category-title p {
 	margin-bottom: 20px;
+}
+.talented-lawyears-area {
+	padding: 30px 0px;
+}
+.lat-law-title {
+	text-align: center;
+}
+.tal-law-text {
+	text-align: center;
+	margin-top: 15px;
+}
+.law-farm-job-area button {
+	margin: 0 auto;
+	display: block;
+}
+.law-farm-content {
+	padding-top: 0px;
+}
+.law-farm-job-area {
+	padding: 30px 0px;
+	text-align: center;
+}
+.law-farm-title {
+	margin-bottom: 20px;
+	font-size: 27px;
+}
+.law-farm-text {
+	margin-bottom: 15px;
+}
+.law-farm-content button {
+	margin-bottom: 20px;
+}
+.pricing-blanter-column {
+	border: 1px solid #ddd;
+}
+/* style.css must delete 2333 
+h1 {
+	text-align: center;
+	font-size: 20px;
+} */
+
+.lawyers-title {
+	font-size: 24px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.lawyers-box {
+	margin-bottom: 25px;
+}
+.bg3,.bg4 {
+	margin-bottom: 25px;
+}
+.lawyers-profile-area {
+	padding-bottom: 50px;
+}
+.review-area {
+	padding: 30px 0px;
+}
+.review-title {
+	font-size: 23px;
+}
+.divider-line {
+	margin-bottom: 8px;
 }
